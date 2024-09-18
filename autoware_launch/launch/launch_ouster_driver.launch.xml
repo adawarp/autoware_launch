@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+    <group>
+        <push-ros-namespace namespace="lidar" />
+
+        <group>
+            <push-ros-namespace namespace="top" />
+            <include file="$(find-pkg-share ros2_ouster)/launch/driver_launch.py" />
+        </group>
+    </group>
+
+</launch>
