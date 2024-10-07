@@ -82,7 +82,8 @@ launch:
       default: "false"
   - arg:
       name: launch_dynamic_obstacle_stop_module
-      default: "true"
+      default: "false"
+    #   default: "true"
 
   # motion planning modules
   - arg:
